@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-150px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(150px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-left {
+    animation: slideInLeft 1.2s ease-out forwards;
+  }
+
+  .animate-slide-right {
+    animation: slideInRight 1.2s ease-out forwards;
+  }
+  .animate-infinite-scroll {
+    animation: infinite-scroll 25s linear infinite;
+  }
+
+  @keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+}
+@theme {
+  --font-roboto: "Roboto", sans-serif; 
+   --font-poppins: "Poppins", sans-serif; 
+}
