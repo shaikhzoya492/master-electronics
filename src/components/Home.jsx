@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="relative w-full bg-[url('/homebg.jpg')] bg-no-repeat bg-cover bg-center overflow-hidden mb-4">
             
-            <div className="flex flex-col md:flex-row justify-between items-center w-full min-h-[80vh] px-6 md:px-20 py-10 bg-linear-to-t xl:bg-linear-to-l from-blue-600 to-transparent">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full xl:min-h-[60vh] lg:min-h-[70vh] xl:min-h-[80vh] px-6 md:px-20 py-10 bg-linear-to-t xl:bg-linear-to-l from-blue-600 to-transparent">
                 
            
                 <div className="text-white font-sans text-center md:text-left md:max-w-2xl animate-slide-left">
