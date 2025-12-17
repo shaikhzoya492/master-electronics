@@ -68,7 +68,7 @@ Since 2002, Master Electronics has provided Mumbai with expert appliance repairs
 
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-400/30 pt-8 text-center">
-                    <p className="text-gray-300 text-sm tracking-wide">
+                    <p className="text-gray-300 text-xs xl:text-sm tracking-wide">
                         Copyright © 2025 Master Electronics. All rights reserved.
                     </p>
                 </div>
