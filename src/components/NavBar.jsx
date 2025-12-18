@@ -17,13 +17,13 @@ const NavBar = () => {
             <div className='max-w-7xl mx-auto pr-6 lg:px-20'>
                 <div className='flex justify-between items-center h-20'>
                     
-                    {/* Logo */}
+           
                    <div className='flex items-center'>
     <a href="#home">
-        {/* Changed <image> to <img> and ensured path is correct */}
+       
         <img 
             className='w-49 h-49 xl:w-59 xl:h-59 object-contain' 
-            src="Logo.png" 
+            src="Logo1.png" 
             alt="Master Electronics Logo" 
         />
     </a>
