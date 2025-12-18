@@ -22,7 +22,7 @@ const NavBar = () => {
     <a href="#home">
        
         <img 
-            className='w-49 h-49 xl:w-59 xl:h-59 object-contain' 
+            className='w-18 h-18 xl:w-28 xl:h-28 object-contain' 
             src="Logo1.png" 
             alt="Master Electronics Logo" 
         />
