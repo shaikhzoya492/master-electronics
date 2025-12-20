@@ -66,7 +66,7 @@ const About = () => {
                 }`}>
                     
                     {/* Header */}
-                    <h2 className="text-3xl md:text-4xl mb-2 font-bold font-roboto text-gray-800">
+                    <h2 className="text-3xl md:text-5xl mb-2 font-bold font-roboto text-gray-800">
                         About Us
                     </h2>
                     <hr className="border-[#155dfc] border-2 w-16 mb-10" />
@@ -110,8 +110,8 @@ const About = () => {
                                 <div className="hidden md:block absolute -top-4 -left-4 w-full h-full border-2 border-[#155dfc] rounded-lg"></div>
                                 <img 
                                     className="relative z-10 w-full max-w-[500px] h-auto rounded-lg shadow-2xl object-cover" 
-                                    src='repairing.jpg' 
-                                    alt="Professional Repairing Service"
+                                    src='soldering-a-TV-motherboard.jpg' 
+                                    alt="Technician soldering a TV motherboard for repair"
                                 />
                             </div>
                         </div>

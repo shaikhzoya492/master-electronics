@@ -92,6 +92,7 @@ const Contact = () => {
         style={{ border: 0 }} 
         allowFullScreen="" 
         loading="lazy" 
+        alt="Master Electronics service location map in Andheri East Mumbai"
         referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
 </div>

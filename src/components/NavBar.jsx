@@ -13,14 +13,14 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className=' bg-white shadow-md font-roboto'>
+        <nav className='bg-white shadow-md font-roboto'>
             <div className='max-w-7xl mx-auto pr-6 lg:px-20'>
                 <div className='flex justify-between items-center h-20'>
                     
            
                    <div className='flex items-center'>
     <a href="#home">
-       
+      
         <img 
             className='pl-6 w-45 h-28 xl:w-52 xl:h-30 object-contain' 
             src="Logo1.png" 

@@ -2,14 +2,14 @@ import React from "react";
 
 const Brands = () => {
     const logos = [
-        { name: "Samsung", url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Samsung_old_logo_before_year_2015.svg" },
-        { name: "LG", url: "https://upload.wikimedia.org/wikipedia/commons/9/92/LG_Electronics_Logo_%28modern%29.svg" },
-        { name: "Panasonic", url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Panasonic_logo.svg" },
-        { name: "Sony", url: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg" },
-        { name: "Whirlpool", url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Whirlpool_Corporation_Logo_%28as_of_2017%29.svg" },
-        { name: "Haier", url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Haier_logo.svg" },
-        { name: "Bosch", url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg" },
-        { name: "TCL", url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Logo_of_the_TCL_Corporation.svg" },
+        { name: "Samsung", url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Samsung_old_logo_before_year_2015.svg", altText: "Authorized Samsung AC and Fridge repair service expert" },
+        { name: "LG", url: "https://upload.wikimedia.org/wikipedia/commons/9/92/LG_Electronics_Logo_%28modern%29.svg", altText: "LG washing machine and refrigerator maintenance specialist" },
+        { name: "Panasonic", url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Panasonic_logo.svg", altText: "Panasonic air conditioner and smart TV repair service" },
+        { name: "Sony", url: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg" , altText: "Sony LED TV screen repair and panel replacement service" },
+        { name: "Whirlpool", url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Whirlpool_Corporation_Logo_%28as_of_2017%29.svg" , altText: "Whirlpool washing machine and fridge technician" },
+        { name: "Haier", url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Haier_logo.svg" , altText: "Haier refrigerator gas charging and AC service" },
+        { name: "Bosch", url: "https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg", altText: "Bosch front load washing machine repair and service" },
+        { name: "TCL", url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Logo_of_the_TCL_Corporation.svg" , altText: "TCL Android TV and home appliance repair expert" },
     ];
 
     return (
