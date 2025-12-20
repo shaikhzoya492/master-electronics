@@ -27,7 +27,24 @@ const whatsappLink = "https://wa.me/919322870243?text=Hello!%20I%20got%20your%20
                             className='w-8 h-8 md:w-8 md:h-8 object-contain'
                         />
                     </a>
+                    <div className='flex items-center gap-2'>
+    <span className='hidden sm:block text-xs font-semibold text-gray-500 uppercase tracking-wider'>Follow us</span>
+    <a 
+        href="https://www.instagram.com/masterelectronicsmumbai?igsh=aXFwZ3BqM3hqMnp4" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className='hover:scale-110 transition-transform duration-200'
+        title="Follow us on Instagram"
+    >
+        <img 
+            src="https://img.icons8.com/color/48/instagram-new--v1.png" 
+            alt="Instagram" 
+            className='w-8 h-8 md:w-8 md:h-8 object-contain'
+        />
+    </a>
+</div>
                 </div>
+                
             </div>
             <hr className='border-gray-200' />
         </>
