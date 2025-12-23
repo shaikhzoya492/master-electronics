@@ -9,6 +9,7 @@ import Reviews from './components/Reviews'
 import Contact from './components/Contact'
 import Footer from'./components/Footer'
 import Faq  from './components/Faq'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
 
             <section id="contactus" className="scroll-mt-18 md:scroll-mt-40">
               <Contact/>
+              <ContactForm/>
             </section>
             <Faq/>
         </main>

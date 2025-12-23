@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TopBar = () => {
-    
+
 const whatsappLink = "https://wa.me/919322870243?text=Hello!%20I%20got%20your%20number%20from%20your%20website.%20I%20want%20to%20enquire:%20";
     return (
         <>
