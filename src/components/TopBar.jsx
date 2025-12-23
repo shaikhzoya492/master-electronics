@@ -8,7 +8,7 @@ const whatsappLink = "https://wa.me/919322870243?text=Hello!%20I%20got%20your%20
             <div className='flex justify-between items-center p-3 px-6 xl:px-20 bg-white'>
                 
                 <h1 className='text-sm sm:text-md md:text-lg xl:text-xl font-bold font-roboto text-gray-800'>
-                    Call us: <a href="tel:+919326680457" className="hover:text-blue-600 transition-colors">+91 9326680457</a>
+                    Call us: <a href="tel:+919322870243" className="hover:text-blue-600 transition-colors">+91 9322870243</a>
                 </h1>
 
                

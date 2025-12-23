@@ -41,7 +41,7 @@ const Home = () => {
                     </p>
                     
                     <div className="flex justify-center md:justify-start">
-                        <a href="tel:+919326680457" className=" bg-red-700 xl:bg-red-900 px-10 py-4 rounded-full font-bold font-roboto hover:bg-red-500 transition-all shadow-lg hover:scale-105 inline-block text-center">
+                        <a href="tel:+919322870243" className=" bg-red-700 xl:bg-red-900 px-10 py-4 rounded-full font-bold font-roboto hover:bg-red-500 transition-all shadow-lg hover:scale-105 inline-block text-center">
                             CALL NOW
                         </a>
                     </div>
